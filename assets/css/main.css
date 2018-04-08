@@ -6,6 +6,13 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+	img:hover{
+		width:10000px;
+	}
+
+	img{
+		transition:width 150s;
+	}
 
 /* Reset */
 
@@ -2113,7 +2120,7 @@
 
 		a:hover {
 			border-bottom-color: #f56a6a;
-			color: #800080 !important;
+			color: #f56a6a !important;
 		}
 
 			a:hover strong {
